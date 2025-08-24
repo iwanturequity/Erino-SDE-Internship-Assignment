@@ -24,7 +24,7 @@ const corsOptions = {
     const allowedOrigins = [
       'http://localhost:3000',
       'http://localhost:5173',
-      'https://erino-sde-internship-assignment.vercel.app'  // Your actual Vercel frontend URL
+      'https://erino-sde-internship-assignment.vercel.app'  // Fixed: Removed /login (CORS needs just the domain)
     ];
     
     if (allowedOrigins.indexOf(origin) !== -1) {

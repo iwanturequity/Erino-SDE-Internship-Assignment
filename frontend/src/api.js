@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Configure axios defaults
 const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://erino-sde-internship-assignment.onrender.com/api'  // Your actual Render backend URL
+  ? 'https://erino-sde-internship-assignment.onrender.com/api'  // Fixed: Added /api back
   : 'http://localhost:5001/api';
 
 const api = axios.create({
