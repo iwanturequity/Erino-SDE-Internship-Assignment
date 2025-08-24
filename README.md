@@ -2,6 +2,11 @@
 
 A full-stack MERN application for managing leads with advanced filtering, pagination, and authentication features.
 
+## 🌐 **Live Demo**
+- **Frontend**: https://erino-sde-internship-assignment.vercel.app/
+- **Backend API**: https://erino-sde-internship-assignment.onrender.com/
+- **Test Account**: testuser@test.com / test1234
+
 ## 🚀 Features
 
 - **Complete CRUD Operations**: Create, read, update, and delete leads

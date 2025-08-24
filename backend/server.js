@@ -20,11 +20,11 @@ const corsOptions = {
     // Allow requests with no origin (like mobile apps or curl requests)
     if (!origin) return callback(null, true);
     
-    // Production frontend domains - update these with your actual Vercel URL
+    // Production frontend domains - your actual Vercel URL
     const allowedOrigins = [
       'http://localhost:3000',
       'http://localhost:5173',
-      'https://your-actual-vercel-app-name.vercel.app'  // UPDATE THIS with your actual Vercel URL
+      'https://erino-sde-internship-assignment.vercel.app'  // Your actual Vercel frontend URL
     ];
     
     if (allowedOrigins.indexOf(origin) !== -1) {
